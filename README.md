@@ -18,7 +18,11 @@ Point sources are astronomical objects (active galactic nuclei, radio galaxies, 
 ## Data Analysis (Detection):
 In order to detect these sources, whether for study or for mitigation, I had to construct a filter optimized to spatially-select beam-like objects and is processed in the same manner as the timestream data. To construct this filter, I use the individual coadded (season-averaged) sky maps for each of the three frequency bands and each of the nine SPT-3G Wide survey fields. There are a myriad of signals present in each of these sky maps that are rejected based on a foreground model, forming an angular-scale dependent weighting along with the filtering used in data processing and the telescope beam. A visual representation of the result is shown below.
 
-[optimal filter]
+<p align="center">
+  <img src="summary_plots/optimal_filter.PNG" width="600">
+  <br>
+  <em>The optimal filter preferrentially selects spatial profiles that look like the telescope's beam. Figure from Hryciuk 2025.</em>
+</p>
 
 Once the filter is constructed, the spurious "wings" from the timestream filtering need to be taken care of, which is done iteratively using an adapted version of the CLEAN algorithm (citation). The CLEAN algorithm generates a template point source from the beam convolved with the timestream filtering. The template is rotated by a sky-coordinate-dependent angle calculated with information on the particular projection (Lambert-ZEA in this case). An amplitude-scaled and rotated template is then iteratively subtracted from the maximum pixel value in the optimally filtered sky map. 
 
@@ -61,7 +65,7 @@ I also analyzed the different point source populations from the total catalog, f
 I use these catalogs to create a sense of probability distribution for the two populations in the number and flux parameter space. These probability distribution curves are widely used to model point sources in simulated data that is critical to calibrating analyses and better understanding aggregate noise properties. It is very important to get this right, and I compare the curves I calculated for the SPT-3G Wide survey with previously published populations from Everett et al. 2020.
 
 <p align="center">
-  <img src="asldv" width="600">
+  <img src="summary_plots/differential_source_counts_spt3g_wide.PNG" width="600">
   <br>
   <em>I used the two populations plotted above to generate probability distribution curves in number and flux space. These probability distribution are used to accurately simulate data that is critical to calibrating analyses as well as to understand aggregate noise properties of the survey. I compare my curves to distributions previously published in Everett et al. 2020. Figure from Hryciuk 2025.</em>
 </p>
