@@ -19,7 +19,7 @@ Point sources are astronomical objects (active galactic nuclei, radio galaxies, 
 In order to detect these sources, whether for study or for mitigation, I had to construct a filter optimized to spatially-select beam-like objects and is processed in the same manner as the timestream data. To construct this filter, I use the individual coadded (season-averaged) sky maps for each of the three frequency bands and each of the nine SPT-3G Wide survey fields. There are a myriad of signals present in each of these sky maps that are rejected based on a foreground model, forming an angular-scale dependent weighting along with the filtering used in data processing and the telescope beam. A visual representation of the result is shown below.
 
 <p align="center">
-  <img src="summary_plots/optimal_filter.PNG" width="600">
+  <img src="summary_plots/optimal_filter.PNG" width="500">
   <br>
   <em>The optimal filter preferrentially selects spatial profiles that look like the telescope's beam. Figure from Hryciuk 2025.</em>
 </p>
