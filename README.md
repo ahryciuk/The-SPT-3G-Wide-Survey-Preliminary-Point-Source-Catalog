@@ -2,7 +2,7 @@
 
 The South Pole Telescope (SPT) is a 10-meter diameter gregorian telescope with cryogenic millimeter-wavelength receivers. This page summarizes work I did for point sources using data taken by the SPT-3G receiver.
 
-The SPT-3G Wide survey is a 6,000 square-degree extension of the SPT-3G Main and Summer surveys in the Southern hemisphere. The observation campaign ran for most of the 2024 observing season, with the residual observing time dedicated to the Euclid Deep Field-South field (a paper I co-authored [here](https://arxiv.org/abs/2506.00298)). I analyzed the SPT-3G Wide survey to detect astronomical point sources for use in masking and source subtraction for galaxy cluster detection (see my other project here) as well as lensing analyses of the CMB.
+The SPT-3G Wide survey is a 6,000 square-degree extension of the SPT-3G Main and Summer surveys in the Southern hemisphere. The observation campaign ran for most of the 2024 observing season, with the residual observing time dedicated to the Euclid Deep Field-South field (a paper I co-authored [here](https://arxiv.org/abs/2506.00298)). I analyzed the SPT-3G Wide survey to detect astronomical point sources for use in masking and source subtraction for galaxy cluster detection (see [my data analysis with galaxy clusters](https://github.com/ahryciuk/SPT-3G-Wide-Survey-Preliminary-Galaxy-Cluster-Detection/tree/main)) as well as lensing analyses of the CMB.
 
 The survey is broken up into nine fields with the alphabet labels shown below.
 
