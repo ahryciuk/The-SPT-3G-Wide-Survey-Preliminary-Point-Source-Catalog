@@ -31,7 +31,7 @@ The entire point source detection process is shown in steps below.
 <p align="center">
   <img src="summary_plots/map_process_archipleyetal2025.PNG" width="300">
   <br>
-  <em>Each panel is an important step in the point source finding procedure. The top left is the raw coadded (season-averaged) sky map data with the point sources intact. The raw maps are optimally filtered to preferrentially select telescope beam-like spatial profiles to produce the top right panel. The CLEAN algorithm removes the point sources and spurious "wings" caused by timestream filtering (bottom left). The raw sky maps are cleaned by re-injecting the correct point source profiles back into the map with the correct flux. Figure from Archipley et al. 2025.</em>
+  <em>Each panel is an important step in the point source finding procedure. The top left is the raw coadded (season-averaged) sky map data with the point sources intact. The raw maps are optimally filtered to preferrentially select telescope beam-like spatial profiles to produce the top right panel. The CLEAN algorithm removes the point sources and spurious "wings" caused by timestream filtering (bottom left). The subtracted sources are re-injected back into the residual map with the correct flux. Figure from Archipley et al. 2025.</em>
 </p>
 
 ## Summary of Catalog Results:
